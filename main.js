@@ -90,37 +90,6 @@
 // 1- ism kiritilsin 2-parol kiritilsin 3-tanlansin:mablag'ni tekshirish, pul yechish 4-mablag'ni aytsin, pul yechilsin 5- pul yechilmoqchi bo'lib mablag' yetarli bo'lmasa 'Mablag' yetarli emas'deyilsin 6-ish tugasa `E'tiboringiz uchun rahmat` deyilsin --- bankomat mablag'i --- 0,01
 
 
-// let user_info = {
-//     name:"Yusuf",
-//     card_num: 1111 ,
-//     user_money:9_000_000,
-//     bank_money:10_000_000,
-// }
-
-// if(user_info){
-//     let name_prompt = prompt("Ismni kiritning  :)")
-//     if(name_prompt === user_info.name){
-//         let card_prompt = +prompt("Carta raqamingizni kiriting  :)")
-//         if(card_prompt === user_info.card_num){
-//             let question = prompt("Mablag'ni tekshirish uchun 1 sonini yozing!\nPul yechish uchun 2 sonini yozing")
-//             if( question == 1 ){
-//                 alert(`Kartangizda ${user_money} so'm pul bor`)
-//                 if(give_money <= user_info.money){
-//                     alert(`Kartangizdan ${give_money} so'm pul yechildi\nQoldi:${user_info.money  - give_money } so'm`)
-//                 }else{
-//                     alert("Kartangizda yetarli mablag' mavjud emas!!!")
-//                 }
-//             }else{
-//                 let give_money = +prompt("Qancha pul yechmoqchisiz???")  
-//             }
-
-//         }else{
-//             alert("Karta raqamingizda xatolik bor :(\nQayta urinib ko'ring!!!")
-//         }
-//     }else{
-//         alert("Ismni xato kiritdingiz  :(")
-//     }
-// }
 let user_info = {
     name: "Yusuf",
     card_num: 1111,
